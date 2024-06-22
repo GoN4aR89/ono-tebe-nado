@@ -149,6 +149,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 25px;
   justify-content: space-between;
   width: 1052px;
   margin-bottom: 31px;
@@ -208,11 +209,12 @@
 }
 
 .lots__look-more-link {
+  display: block;
   margin-left: 40px;
   border-bottom: 1px solid #000;
-  padding-top: 30px;
   font-size: 20px;
   text-decoration: none;
+  width: fit-content;
 }
 
 .about {
